@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-
 import { getCookie, isAuth } from "../../actions/auth";
 import { list, removeBlog } from "../../actions/blog";
 import moment from "moment";
@@ -66,7 +65,7 @@ const BlogRead = ({ username }) => {
         <div key={i} className="pb-5">
           <h3>{blog.title}</h3>
           <p className="mark">
-            Written by {blog.postedBy._id.name} | Published on{" "}
+            Written by {blog.postedBy.name} | Published on{" "}
             {moment(blog.updatedAt).fromNow()}
           </p>
           <button
