@@ -2,7 +2,7 @@ import fetch from "isomorphic-fetch";
 //import { API } from "../config";
 import { handleResponse } from "./auth";
 
-let API = "http://arcane-shelf-33075.herokuapp.com";
+let API = "https://arcane-shelf-33075.herokuapp.com";
 
 
 export const create = (category, token) => {

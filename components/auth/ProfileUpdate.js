@@ -5,7 +5,7 @@ import { getCookie, isAuth, updateUser } from "../../actions/auth";
 import { getProfile, update } from "../../actions/user";
 //import { API } from "../../config";
 
-let API = "http://arcane-shelf-33075.herokuapp.com/api";
+let API = "https://arcane-shelf-33075.herokuapp.com/api";
 
 const ProfileUpdate = () => {
   const [values, setValues] = useState({

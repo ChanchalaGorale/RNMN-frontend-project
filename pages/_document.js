@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <title>Programo9</title>
           <meta charset="utf-8" />
           <meta
             name="viewport"
@@ -20,7 +21,7 @@ class MyDocument extends Document {
           />
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
           <link rel="stylesheet" href="/static/css/styles.css" />
-          <title>Programo9</title>
+          
         </Head>
         <body>
           <Main />

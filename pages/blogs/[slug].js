@@ -8,7 +8,7 @@ import moment from "moment";
 import SmallCard from "../../components/blog/SmallCard";
 import DisqusThread from "../../components/DisqusThread";
 
-let API = "http://arcane-shelf-33075.herokuapp.com/api"
+let API = "https://arcane-shelf-33075.herokuapp.com/api"
 const SingleBlog = ({ blog, query }) => {
   const [related, setRelated] = useState([]);
 

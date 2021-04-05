@@ -3,7 +3,7 @@ import fetch from "isomorphic-fetch";
 import queryString from "query-string";
 import { isAuth, handleResponse } from "./auth";
 
-let API = "http://arcane-shelf-33075.herokuapp.com";
+let API = "https://arcane-shelf-33075.herokuapp.com";
 
 
 export const createBlog = (blog, token) => {

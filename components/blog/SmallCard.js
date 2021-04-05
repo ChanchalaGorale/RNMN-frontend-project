@@ -3,7 +3,7 @@ import renderHTML from "react-render-html";
 import moment from "moment";
 //import { API } from "../../config";
 
-let API = "http://arcane-shelf-33075.herokuapp.com/api";
+let API = "https://arcane-shelf-33075.herokuapp.com/api";
 
 const SmallCard = ({ blog }) => {
   return (

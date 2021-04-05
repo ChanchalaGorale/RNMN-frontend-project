@@ -12,7 +12,7 @@ import "../../node_modules/react-quill/dist/quill.snow.css";
 import { QuillModules, QuillFormats } from "../../helpers/quill";
 import * as FormData from "form-data";
 
-let API = "http://arcane-shelf-33075.herokuapp.com/api";
+let API = "https://arcane-shelf-33075.herokuapp.com/api";
 
 const BlogUpdate = ({ router }) => {
   const [body, setBody] = useState("");

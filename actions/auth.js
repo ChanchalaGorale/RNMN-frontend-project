@@ -2,7 +2,7 @@ import fetch from "isomorphic-fetch";
 import cookie from "js-cookie";
 //import { API } from "../config";
 
-let API = "http://arcane-shelf-33075.herokuapp.com";
+let API = "https://arcane-shelf-33075.herokuapp.com";
 
 export const handleResponse = (response) => {
   if (response.status === 401) {

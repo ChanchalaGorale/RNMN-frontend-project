@@ -2,7 +2,7 @@ import Link from "next/link";
 import renderHTML from "react-render-html";
 import moment from "moment";
 
-let API = "http://arcane-shelf-33075.herokuapp.com/api";
+let API = "https://arcane-shelf-33075.herokuapp.com/api";
 
 const Card = ({ blog }) => {
   const showBlogCategories = (blog) =>
